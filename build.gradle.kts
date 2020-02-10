@@ -11,7 +11,7 @@ plugins {
 }
 
 group = "pw.aru.libs"
-version = "1.0-SNAPSHOT"
+version = "1.0"
 
 repositories {
     jcenter()
@@ -39,7 +39,7 @@ publishing {
         artifactId = project.name
         version = project.version.toString()
 
-        from(components["java"])
+        from(components["kotlin"])
         artifact(sourceJar)
     }
 }
@@ -54,7 +54,7 @@ bintray {
         repo = "maven"
         name = project.name
         userOrg = "arudiscord"
-        setLicenses("Apache-2.0")
+        setLicenses("MIT")
         vcsUrl = "https://github.com/arudiscord/fakenetwork.git"
     })
 }

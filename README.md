@@ -8,7 +8,7 @@ Licensed under the [MIT License](https://github.com/arudiscord/fakenetwork/blob/
 
 ### Installation
 
-![Latest Version](https://api.bintray.com/packages/arudiscord/kotlin/fakenetwork/images/download.svg)
+![Latest Version](https://api.bintray.com/packages/arudiscord/maven/fakenetwork/images/download.svg)
 
 Using in Gradle:
 
@@ -50,7 +50,7 @@ To register a new listener device, implement the `FakeNetwork` interface and cal
 
 ### Example Implementations:
 
-See [src/test/kotlin/pw/aru/libs/fakenetwork]() for example implementations.
+See [src/test/kotlin/pw/aru/libs/fakenetwork](https://github.com/arudiscord/fakenetwork/tree/master/src/test/kotlin/pw/aru/libs/fakenetwork) for example implementations.
 
 ### Support
 
